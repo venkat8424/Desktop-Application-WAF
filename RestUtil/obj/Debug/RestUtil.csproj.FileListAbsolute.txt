@@ -1,0 +1,15 @@
+c:\Users\Student\documents\visual studio 2015\Projects\Project3\RestUtil\bin\Debug\RestUtil.dll
+c:\Users\Student\documents\visual studio 2015\Projects\Project3\RestUtil\bin\Debug\RestUtil.pdb
+c:\Users\Student\documents\visual studio 2015\Projects\Project3\RestUtil\obj\Debug\RestUtil.csprojResolveAssemblyReference.cache
+c:\Users\Student\documents\visual studio 2015\Projects\Project3\RestUtil\obj\Debug\RestUtil.dll
+c:\Users\Student\documents\visual studio 2015\Projects\Project3\RestUtil\obj\Debug\RestUtil.pdb
+C:\Users\Student\Desktop\Project3\RestUtil\bin\Debug\RestUtil.dll
+C:\Users\Student\Desktop\Project3\RestUtil\bin\Debug\RestUtil.pdb
+C:\Users\Student\Desktop\Project3\RestUtil\obj\Debug\RestUtil.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Project3\RestUtil\obj\Debug\RestUtil.dll
+C:\Users\Student\Desktop\Project3\RestUtil\obj\Debug\RestUtil.pdb
+D:\Project3\RestUtil\bin\Debug\RestUtil.dll
+D:\Project3\RestUtil\bin\Debug\RestUtil.pdb
+D:\Project3\RestUtil\obj\Debug\RestUtil.csprojResolveAssemblyReference.cache
+D:\Project3\RestUtil\obj\Debug\RestUtil.dll
+D:\Project3\RestUtil\obj\Debug\RestUtil.pdb

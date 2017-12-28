@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22E88BA6-0BAB-4E61-9532-9B63A8C7A17F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project3</RootNamespace>
+    <AssemblyName>Project3</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs" />
+    <Compile Include="AdvisingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisingForm.Designer.cs">
+      <DependentUpon>AdvisingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Citations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Citations.Designer.cs">
+      <DependentUpon>Citations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoopForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoopForm.Designer.cs">
+      <DependentUpon>CoopForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Course.cs" />
+    <Compile Include="CourseDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseDescription.Designer.cs">
+      <DependentUpon>CourseDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Footer.cs" />
+    <Compile Include="gradDegreeDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gradDegreeDescription.Designer.cs">
+      <DependentUpon>gradDegreeDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabInfoForm.Designer.cs">
+      <DependentUpon>LabInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinorAdvisors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MinorAdvisors.Designer.cs">
+      <DependentUpon>MinorAdvisors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinorDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MinorDescription.Designer.cs">
+      <DependentUpon>MinorDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="News.cs" />
+    <Compile Include="ResourceForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResourceForms.Designer.cs">
+      <DependentUpon>ResourceForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAmbassadorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentAmbassadorsForm.Designer.cs">
+      <DependentUpon>StudentAmbassadorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudyAbroadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudyAbroadForm.Designer.cs">
+      <DependentUpon>StudyAbroadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ugDegreeDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ugDegreeDescription.Designer.cs">
+      <DependentUpon>ugDegreeDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Degrees.cs" />
+    <Compile Include="Employment.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minors.cs" />
+    <Compile Include="People.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Research.cs" />
+    <Compile Include="Resources.cs" />
+    <EmbeddedResource Include="AdvisingForm.resx">
+      <DependentUpon>AdvisingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Citations.resx">
+      <DependentUpon>Citations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoopForm.resx">
+      <DependentUpon>CoopForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseDescription.resx">
+      <DependentUpon>CourseDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gradDegreeDescription.resx">
+      <DependentUpon>gradDegreeDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabInfoForm.resx">
+      <DependentUpon>LabInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinorAdvisors.resx">
+      <DependentUpon>MinorAdvisors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinorDescription.resx">
+      <DependentUpon>MinorDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceForms.resx">
+      <DependentUpon>ResourceForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentAmbassadorsForm.resx">
+      <DependentUpon>StudentAmbassadorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudyAbroadForm.resx">
+      <DependentUpon>StudyAbroadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ugDegreeDescription.resx">
+      <DependentUpon>ugDegreeDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RestUtil\RestUtil.csproj">
+      <Project>{10F9B62B-3A1B-4B43-AD8F-0FD5B1CC6215}</Project>
+      <Name>RestUtil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\spinner.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
